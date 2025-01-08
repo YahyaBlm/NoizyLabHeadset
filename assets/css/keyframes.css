@@ -1,0 +1,59 @@
+@keyframes apparition {
+    from {
+      transform: translatey(-300%); 
+    }
+    to {
+      transform: translatey(0); 
+    }
+  }
+
+  @keyframes apparition2 {
+    from {
+      transform: translatex(-300%); 
+    }
+    to {
+      transform: translatex(0); 
+    }
+  }
+
+  @keyframes reveal {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes scroll {
+    from {
+        background-size: 0% 8px;
+    }
+    to{
+        background-size: 100% 8px;
+    }
+}
+
+@keyframes apparition {
+    from {
+        scale: 0%;
+        opacity: 0%;
+    }
+    to {
+        scale: 100%;
+        opacity: 100%;
+    }
+}
